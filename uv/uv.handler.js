@@ -2,12 +2,9 @@
 //# sourceMappingURL=uv.handler.js.map
 var selectorsForRemoval;
 var removed = false;
-function getUrlFromEncoded(encodedUrl){
-return __uv$config.decodeUrl(encodedUrl.slice(location.origin.length + __uv$config.prefix.length, encodedUrl.length));
-}
 setInterval(function(){
 if(document.querySelector("video")){
-if(document.querySelector("video").src.includes("https://cdn.nowgg.nl")){
+if(document.querySelector("video").src.includes("https://now.gg")){
   document.querySelector("video").remove();
 }
 }
