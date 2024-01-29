@@ -4,7 +4,7 @@ var selectorsForRemoval;
 var removed = false;
 setInterval(function(){
 if(document.querySelector("video")){
-if(document.querySelector("video").src.includes("https://now.gg")){
+if(document.querySelector("video").src.includes(__uv$config.encodeUrl("https://nowgg.nl"))){
   document.querySelector("video").remove();
 }
 }
