@@ -1,7 +1,7 @@
 /*global Ultraviolet*/
 self.__uv$config = {
     prefix: '/win-11/uv/service/',
-    bare: 'https://www.local-jamatkhana-naandhi-shopping.islam.cl/bare/',
+    bare: 'https://8080-chessaimaker-win11-aqdkju33ung.ws-us108.gitpod.io/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/win-11/uv/uv.handler.js',
